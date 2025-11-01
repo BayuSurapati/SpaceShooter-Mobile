@@ -788,6 +788,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1458383279}
   - component: {fileID: 1458383278}
+  - component: {fileID: 1458383280}
   m_Layer: 0
   m_Name: Player_Yellow_256
   m_TagString: Untagged
@@ -835,7 +836,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 80feff58004c02241b58bfb5e13caa0e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -862,6 +863,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1458383280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458383277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ce8de8050d847441af6bbbe0ef0da17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1771243828
 GameObject:
   m_ObjectHideFlags: 0
